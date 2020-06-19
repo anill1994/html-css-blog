@@ -1,0 +1,106 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+body{
+    background-color: grey;
+    font-size: 18px;
+}
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+.out-of-blog{
+    width : 75%;
+    float:left;
+}
+.box{
+    background-color: #fff;
+}
+.blog-container{
+    margin-bottom:20px; 
+    border-radius:8px;
+    -webkit-box-shadow: 6px 3px 6px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 6px 3px 6px 1px rgba(0, 0, 0, .5);
+}
+.blog-container img{
+    width: 100%;
+}
+.blog-container img:hover{
+    opacity: 0.9;
+   transition: all 0.8s ;
+}
+.blog-container p, h1,.date{
+    padding: 20px;
+}
+h1{
+}
+.blog-inner-post{
+    position: relative;
+}
+.date{
+    position: absolute;
+    right:0;
+    top: 10px;
+}
+
+li{
+    list-style: none;
+}
+.list-group-item{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.nav-item{
+    text-decoration: none;
+    color: red;
+}
+.most-populer-blogs{
+    width: 25%;
+    float: left;
+    padding-left:10px;
+}
+.most-populer-blogs li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.most-populer-blogs li a{
+    text-decoration: none;
+    color: brown;
+}
+.inner-populer-blogs{
+    padding: 20px;
+}
+#share{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+}
+#share-inner{
+    margin-left:10px;
+    padding: 30px;
+}
+#share-inner i{
+    margin-left:5px;
+    color: grey;
+}
+#share-inner i:hover{
+   opacity: .7;
+   transition: all .5s;
+}
+.author{
+
+}
+.author-box{
+    
+}
+.author-box img{
+    clear: both;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
